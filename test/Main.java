@@ -7,6 +7,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a,b,c;
+        boolean cont = true;
+        while(cont){
         System.out.println("Enter three numbers: ");
         a = scanner.nextInt();
         b = scanner.nextInt();
@@ -20,7 +22,9 @@ public class Main {
             if(c>last_num)last_num = c;
 
             System.out.println("The largest number is:" + last_num);
-        } 
+        }
+        
+    }
             
         
 
