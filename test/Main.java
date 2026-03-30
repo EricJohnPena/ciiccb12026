@@ -23,6 +23,9 @@ public class Main {
 
             System.out.println("The largest number is:" + last_num);
         }
+	System.out.println("Do you want to continue? y/n");
+	String opt = scanner.next();
+	if(opt.equalsIgnoreCase("n"))cont = false;
         
     }
             
